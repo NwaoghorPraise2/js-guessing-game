@@ -1,5 +1,7 @@
+/* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
 
+/* Page Set up */
 * {
     margin: 0;
     padding: 0;
@@ -13,4 +15,6 @@
     scroll-behavior: smooth;
     font-family: 'PT Sans', sans-serif;
 }
+
+
 
