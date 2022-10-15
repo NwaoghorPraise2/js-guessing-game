@@ -6,9 +6,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    --black-color: #ddd;
     --white-color: #fff;
-    --green-color: #fff;
+    --black-color: rgb(1, 1, 1);
+    --yellow-color: rgb(242, 247, 93);
+    --blue-color: rgb(26, 90, 201);
 }
 
 .html {
@@ -18,7 +19,7 @@
 }
 
 .container{
-    background-color: rgb(25, 113, 113);
+    background-color: var(--white-color);
 
 }
 
@@ -51,4 +52,9 @@ footer {
 .status-side{
 
 
+}
+
+.btn {
+    color: var(--white-color);
+    background: var(--blue-color);
 }
