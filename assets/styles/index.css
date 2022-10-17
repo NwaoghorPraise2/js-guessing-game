@@ -55,10 +55,27 @@ input {
     font: inherit;
     margin-top: 0.5rem;
     padding: 0.1em 0.4em;
-    box-shadow: 1px 0.8px var(--blue-color);
+    box-shadow: 1px 1px 1px 2px var(--blue-color);
     border-radius: 40%;
+    border: none;
 }
 
+.btn {
+    color: var(--white-color);
+    background: var(--blue-color);
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    /* position: absolute; */
+    /* top:50%; */
+    /* background-color:#0a0a23; */
+    /* color: #fff; */
+    border:none;
+    /* width: 5rem; */
+    /* height: inherit; */
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px var(--blue-color);
+}
 
 footer {
 
