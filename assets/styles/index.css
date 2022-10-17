@@ -51,10 +51,14 @@ font-weight: 500;
 font-size: 1.1rem;
 }
 
-.username-side{
-
-
+input {
+    font: inherit;
+    margin-top: 0.5rem;
+    padding: 0.1em 0.4em;
+    box-shadow: 1px 0.8px var(--blue-color);
+    border-radius: 40%;
 }
+
 
 footer {
 
