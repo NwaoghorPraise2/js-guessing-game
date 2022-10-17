@@ -8,8 +8,8 @@
     box-sizing: border-box;
     --white-color: #fff;
     --black-color: rgb(1, 1, 1);
-    --yellow-color: rgb(242, 247, 93);
-    --blue-color: rgb(26, 90, 201);
+    --yellow-color: #feba05;
+    --blue-color: #4e15c4 ;
 }
 
 .html {
@@ -19,13 +19,36 @@
 }
 
 .container{
-    background-color: var(--blue-color);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+    position: relative; 
+}
 
+.welcome-img {
+margin: 0;
+padding: 0;
+height: 25rem;
 }
 
 .image-side{
+margin: 0;
+padding: 0;
+text-align: center;
+}
 
+.image-side h3 {
+font-size: 1.3rem;
+font-weight: 700;
+color: var(--blue-color);
+}
 
+.image-side p{
+color: var(--black-color);
+font-weight: 500;
+font-size: 1.1rem;
 }
 
 .username-side{

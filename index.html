@@ -6,7 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- box icons -->
-  <link rel="shortcut icon" href="/assets/images/logo-img.png" type="image/x-icon">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
   <!--stylesheet-->
   <link rel="stylesheet" href="/assets/styles/index.css">
   <title>Home - Guessing Game</title>
@@ -16,21 +17,19 @@
   <main>
     <div class="container">
       <div class="image-side">
-          <img src="/assets/images/" alt="Welcome-Img">
-          <p>Welcome to Js Number Guess Game.</p>
+          <img src="/assets/images/Home-Page-Image.png" class="welcome-img" alt="Welcome-Img">
+          <h3>Welcome to Js Number Guess Game.</h3>
           <p>Enter any username to start the game.</p>
+          <input type="text" name="Enter-username" id="username">
+          <br>
+          <button class="btn">Start</button>
       </div>
-      <div class="username-side">
-            <input type="text" name="Enter-username" id="username">
-            <a href="views/main-game/game.html">
-              <button class="btn">Start</button>
-            </a>
-      </div>
+      
     </div>
   </main>
-  <footer>
+  <!-- <footer>
     <p>Nwaoghor Praise for I4gxZuri @2022</p>
-  </footer>
+  </footer> -->
 
 <!--script-->
 <script src="/assets/scripts/index.js"></script>
