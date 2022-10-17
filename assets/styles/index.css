@@ -23,7 +23,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 8rem;
+    margin-top: 5rem;
     position: relative; 
 }
 
@@ -65,19 +65,20 @@ input {
     background: var(--blue-color);
     font-size: 1.2rem;
     padding: 0.5rem;
-    margin-top: 1rem;
-    /* position: absolute; */
-    /* top:50%; */
-    /* background-color:#0a0a23; */
-    /* color: #fff; */
+    margin-top: 0.9rem;
     border:none;
-    /* width: 5rem; */
-    /* height: inherit; */
     border-radius:10px;
     box-shadow: 0px 0px 2px 2px var(--blue-color);
 }
 
 footer {
+margin-top: 5rem;
+text-align: center;
+font-size: 1.2rem;
+font-weight: 600;
+background: var(--blue-color);
+/* padding: 2rem; */
+height: 150px;
 
 
 }
