@@ -20,10 +20,14 @@
           <img src="/assets/images/Home-Page-Image.png" class="welcome-img" alt="Welcome-Img">
           <h3>Welcome to Js Number Guess Game.</h3>
           <p>Enter any username to start the game.</p>
-          <input type="text" name="Enter-username" id="username">
+          <form class="getForm-Data">
+          <input type="text" name="Enter-username" id="username" required>
           <br>
-          <button class="btn">Start</button>
+          <!-- <input type="button" onclick="loadGamePage()" value=""> -->
+          <button class="btn" type="submit">Start</button>
+        </form>
       </div>
+      
       
     </div>
   </main>
