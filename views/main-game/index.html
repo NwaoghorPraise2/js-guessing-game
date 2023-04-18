@@ -18,18 +18,27 @@
   <main>
     <div class="container">
         <ul class= "head">
-          <i class="bx bxs-user" id="username"> <br>Username <br> 0</i>
+          <a href="/index.html">
+            <i class="bx bxs-home"> <br> Home <br> -</i>
+          </a>
+          <i class="bx bxs-user" id="username"> <br>  <br> </i>
           <i class="bx bxs-sun" id="stage"><br>Stage <br> 0</i>
           <i class="bx bxs-bullseye" id="points"><br>Points <br> 0 </i>
         </ul>
+
     <div class="game-section">
-          <h3 class="game-section-text">I have picked a number between 1 - 2</h3>
+          <h3 class="game-section-text">I have picked a number between 1 - <span id="rangeValue">2</span></h3>
           <h2>Try guessing this number:</h2>
     <div class="input-data-side">
-          <input type="text" name="" id="gussed-number">
+
+        <form class="getGame-data">
+          <input type="text" name="" id="gussed-number" required>
           <br>
-          <button type="button" class="btn" > Guess </button>
+          <button class="btn" type="submit" id="guess-btn" onclick="elup()">Start</button>
+        </form>
+
     </div>
+
     <div class="status-side">
           <p>Number of Guess:</p><span> </span>
           <p>Guessed Number: None</p> <span> </span>
@@ -43,6 +52,6 @@
   </footer>
 
 <!--script-->
-<script src="/assets/scripts/index.js"></script>
+<script src="/assets/scripts/game.js"></script>
 </body>
 </html>

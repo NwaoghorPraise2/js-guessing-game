@@ -1,9 +1,12 @@
-
-document.querySelector(".getForm-Data").addEventListener("submit", submit);
+const form = document.querySelector(".getForm-Data")
+form.addEventListener("submit", submit);
+const username = document.getElementById("username");
 
 
 function submit(e) {
     e.preventDefault();
-    alert("working");
-window.location.assign('views/main-game');
+  //1. Get the username from the form and save in local storage
+    localStorage.setItem("username", username.value);
+//2. Redirect to main game
+    window.location.assign('views/main-game');
 }
