@@ -8,5 +8,5 @@ function submit(e) {
   //1. Get the username from the form and save in local storage
     localStorage.setItem("username", username.value);
 //2. Redirect to main game
-    window.location.assign('views/main-game');
+    window.location.assign('views/main-game/index.html');
 }

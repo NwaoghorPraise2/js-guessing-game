@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Box Icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
   <!--stylesheet-->
   <link rel="stylesheet" href="/assets/styles/index.css">
   <title>Game - Guessing Game</title>
@@ -15,36 +15,37 @@
 <body>
   <main>
     <div class="container">
-        <ul class= "head">
-          <a href="/index.html"><i class="bx bxs-home"><br> Home <br> - </i></a>
-            <i class="bx bxs-user"><br>Username<br><span id="username">username</i> 
-            <i class="bx bxs-sun"><br>Stage<br> <span id="stage">0</span></i> 
-            <i class="bx bxs-bullseye"><br>Point<br> <span  id="points">0</span></i> 
-        </ul> 
+      <ul class="head">
+        <a href="/index.html"><i class="bx bxs-home"><br> Home <br> - </i></a>
+        <i class="bx bxs-user"><br>Username<br><span id="username">username</i>
+        <i class="bx bxs-sun"><br>Stage<br> <span id="stage">0</span></i>
+        <i class="bx bxs-bullseye"><br>Point<br> <span id="points">0</span></i>
+      </ul>
 
-    <div class="game-section">
-          <h3 class="game-section-text">I have picked a number between 1 - <span id="rangeValue">2</span></h3>
-          <h2>Try guessing this number:</h2>
-    <div class="input-data-side">
-        <form class="getGame-data">
-          <input type="text" id="gussed-number" required/>
-          <br>
-          <button class="btn" type="submit" id="guess-btn">Guess</button>
-        </form>
-    </div>
+      <div class="game-section">
+        <h3 class="game-section-text">I have picked a number between 1 - <span id="rangeValue">2</span></h3>
+        <h2>Try guessing this number:</h2>
+        <div class="input-data-side">
+          <form class="getGame-data">
+            <input type="text" id="gussed-number" required />
+            <br>
+            <button class="btn" type="submit" id="guess-btn">Guess</button>
+          </form>
+        </div>
 
-    <div class="status-side">
-          <p>Guessed Numbers: <br> [<span id="guessed-values"> None</span> ]</p> 
+        <div class="status-side">
+          <p>Guessed Numbers: <br> [<span id="guessed-values"> None</span> ]</p>
+        </div>
+      </div>
     </div>
-    </div>
-  </div>
   </main>
-  
+
   <footer>
     <p>Nwaoghor Praise for I4gxZuri @2022</p>
   </footer>
 
-<!--script-->
-<script src="/assets/scripts/game.js"></script>
+  <!--script-->
+  <script src="/assets/scripts/game.js"></script>
 </body>
+
 </html>
