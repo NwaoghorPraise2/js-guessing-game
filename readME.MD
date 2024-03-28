@@ -10,7 +10,7 @@
     Think you can out smart a machine? Knock you self out with this fun guess game.
     <br/>
     <br/>
-    <a href="https://js-guessing-game-1.nwaoghorpraise.repl.co">View Demo</a>
+    <a href="https://324972ef-2346-4cb5-a739-bf510b1015e3-00-2gv7vcpi7frmd.spock.replit.dev">View Demo</a>
     .
     <a href="https://github.com/NwaoghorPraise2/js-guessing-game/issues">Report Bug</a>
     .
